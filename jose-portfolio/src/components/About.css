@@ -1,0 +1,206 @@
+/* ── About ── */
+.about-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 60px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  color: #ffffff;
+}
+
+/* HERO */
+.about-hero {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.about-avatar {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary);
+  flex-shrink: 0;
+  box-shadow: 0 0 16px rgba(11, 185, 238, 0.2);
+}
+
+.about-avatar img {
+  width: 100%;
+  height: 100%;
+  -o-border-radius: 50%;
+  object-fit: cover;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.about-hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.about-name {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+  color: #ffffff;
+}
+
+.about-role {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: var(--primary);
+  margin: 0;
+}
+
+.about-tagline {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #a0a0a0;
+  margin: 0;
+  font-style: italic;
+}
+
+.about-cv-btn {
+  margin-top: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  padding: 8px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  background: transparent;
+  text-decoration: none;
+  width: fit-content;
+  transition: all 0.3s ease;
+}
+
+.about-cv-btn:hover {
+  background: var(--primary);
+  color: #111111;
+  box-shadow:
+    0 0 12px var(--primary),
+    0 0 24px rgba(11, 185, 238, 0.25);
+}
+
+/* SECTION BOX */
+.about-section-box {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.about-section-box p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #a0a0a0;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.about-section-label {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+}
+
+/* TWO COL */
+.about-two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+/* ITEMS */
+.about-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.about-item-title {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.about-item-sub {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  color: var(--primary);
+}
+
+.about-item-detail {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  color: #a0a0a0;
+  line-height: 1.6;
+}
+
+/* SKILLS */
+.about-skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.about-skill-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.about-skill-category {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  color: #a0a0a0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.about-badges {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.about-badge {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  padding: 3px 10px;
+  border-radius: 20px;
+  background: transparent;
+}
+
+/* PHILOSOPHY */
+.about-philosophy {
+  border-color: rgba(11, 185, 238, 0.2);
+}
