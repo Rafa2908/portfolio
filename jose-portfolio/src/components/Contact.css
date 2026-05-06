@@ -149,7 +149,9 @@
 .contact-cv-btn:hover {
   background: var(--primary);
   color: #111111;
-  box-shadow: 0 0 12px var(--primary), 0 0 24px rgba(11, 185, 238, 0.25);
+  box-shadow:
+    0 0 12px var(--primary),
+    0 0 24px rgba(11, 185, 238, 0.25);
 }
 
 /* FORM */
@@ -217,7 +219,9 @@
 .contact-submit-btn:hover {
   background: var(--primary);
   color: #111111;
-  box-shadow: 0 0 12px var(--primary), 0 0 24px rgba(11, 185, 238, 0.25);
+  box-shadow:
+    0 0 12px var(--primary),
+    0 0 24px rgba(11, 185, 238, 0.25);
 }
 
 /* SUCCESS */
@@ -235,4 +239,56 @@
 
 .contact-success span {
   font-size: 32px;
+}
+
+/* Media Query */
+
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 32px 24px 60px;
+    gap: 24px;
+  }
+
+  .contact-title {
+    font-size: 28px;
+  }
+
+  .contact-subtitle {
+    font-size: 13px;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-submit-btn {
+    width: 100%;
+  }
+
+  .contact-cv-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+    padding: 24px 16px 60px;
+  }
+
+  .contact-title {
+    font-size: 24px;
+  }
+
+  .contact-section-box {
+    padding: 16px;
+  }
+
+  .contact-link-item {
+    padding: 10px;
+  }
+
+  .contact-link-sub {
+    font-size: 11px;
+  }
 }
